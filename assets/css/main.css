@@ -1212,4 +1212,32 @@ svg path {
   font-family: "Raleway", Helvetica, sans-serif;
   font-size: 12px;
 }
+
+
+.social_icons {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+
+.social_icons a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social_icons i {
+  display: block;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #909090;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.social_icons i:hover {
+  background-color: #020202;
+}
+
       
