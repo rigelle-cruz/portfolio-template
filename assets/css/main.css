@@ -1347,17 +1347,20 @@ svg path {
 
 
 /* Styles for the download link */
-.download-link {
+.button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #909090;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   transition: background-color 0.2s ease-in-out;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-family: monospace;
 }
 
-.download-link:hover {
+.button:hover {
   background-color: #020202;
+  color: #ffffff; 
 }
 
 
