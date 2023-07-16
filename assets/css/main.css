@@ -226,7 +226,7 @@ th {
 
 body {
   background-color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.6;
   font-family: monospace, sans-serif;
   color: #111;
@@ -935,14 +935,14 @@ svg path {
   -ms-flex-align: center;
   align-items: center;
 }
-#featured_right .wrapper .camera {
+#featured_right .wrapper .project {
   width: 45%;
 }
-#featured_right .wrapper .camera img {
-  width: 85%;
+#featured_right .wrapper .project img {
+  width: 90%;
 }
 #featured_right .wrapper .blurb {
-  width: 55%;
+  width: 50%;
 }
 #featured_right .wrapper .blurb h2 {
   margin-top: 0;
@@ -991,7 +991,7 @@ svg path {
   background-color: #020202;
 }
 @media (max-width: 1023px) {
-  #featured_right .wrapper .camera {
+  #featured_right .wrapper .project {
     display: none;
   }
   #featured_right .wrapper .blurb {
