@@ -71,7 +71,7 @@ h1 {
   margin: 0.67em 0;
 }
 mark {
-  background: #ff0;
+  background: rgb(99, 119, 152);
   color: #000;
 }
 small {
@@ -225,7 +225,7 @@ th {
 
 
 body {
-  background-color: #fff;
+  background-color: #f6f6f6ee;
   font-size: 15px;
   line-height: 1.6;
   font-family: monospace, sans-serif;
@@ -239,13 +239,13 @@ body {
   }
 }
 ::-moz-selection {
-  background: #fff498;
+  background: rgb(164, 183, 215);
 }
 ::selection {
-  background: #fff498;
+  background: rgb(164, 183, 215);
 }
 ::-moz-selection {
-  background: #fff498;
+  background:  rgb(164, 183, 215);
 }
 img::-moz-selection {
   background: transparent;
@@ -257,7 +257,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  -webkit-tap-highlight-color: #fff498;
+  -webkit-tap-highlight-color:  rgb(164, 183, 215);
 }
 .gigantic,
 .huge,
@@ -590,7 +590,7 @@ svg path {
   height: 600px;
   margin: 30px auto;
   overflow: hidden;
-  background-color: #1d1e2ae6;
+  background: linear-gradient(to top, #b6b8cae6, #f6f6f6ee);
 }
 @media (max-width: 768px) {
   #about {
@@ -631,6 +631,7 @@ svg path {
 }
 #about .wrapper .about-blurb p {
   max-width: 600px;
+  font-size: 17px;
   margin-bottom: 45px;
   text-align: center;
 }
@@ -646,7 +647,7 @@ svg path {
   justify-content: space-between;
 }
 #about .wrapper .about-blurb .social a {
-  color: #fff;
+  color: #1d1e2ae6;
   text-decoration: none;
 }
 #about .wrapper .about-blurb .social i {
@@ -1220,7 +1221,7 @@ svg path {
   font-size: 16px;
   text-align: center;
   line-height: 30px;
-  background-color: #909090;
+  background-color: #1d1e2ae6;
   transition: background-color 0.2s ease-in-out;
 }
 
@@ -1233,16 +1234,16 @@ svg path {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  color: #000000;
+  color: #1d1e2ae6;
   text-decoration: none;
   transition: background-color 0.2s ease-in-out;
-  border: 2px solid #000000;
+  border: 2px solid #1d1e2ae6;
   border-radius: 5px;
   font-family: monospace;
 }
 
 .button:hover {
-  background-color: #020202;
+  background-color: #1d1e2ae6;
   color: #ffffff; 
 }
 
